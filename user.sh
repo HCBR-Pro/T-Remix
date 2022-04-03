@@ -1,9 +1,9 @@
 #!/data/data/com.termux/files/usr/bin/bash
 ######################################
-#        PROJECT: T-Remix            #
-#        Author: Ashish              #
-#  email: ashishsingh103020@gmailcom #
-#      All copyright reserved        #
+#        PROJECT: Termux             #
+#        Author: KaLi-_-LiNuX        #
+#  E-mail: kalihcbr@gmailcom         #
+#       HCBR Company© 2022           #
 ######################################
 
 # Customize terminal as a real hacker with user define  
@@ -20,10 +20,10 @@ cd T-Remix
 
 # Read user define varible and save user input
 echo
-read -p $'\e[36m>>\e[33m Enter Your Banner Name:\e[32m ' varbanner
+read -p $'\e[36m>>\e[33m Digite o nome do seu banner:\e[32m ' varbanner
 echo
 sleep 1
-read -p $'\e[36m>>\e[33m Enter Your Terminal Name:\e[32m ' varterm
+read -p $'\e[36m>>\e[33m Digite o nome do seu terminal:\e[32m ' varterm
 echo
 sleep 2
 clear
@@ -36,7 +36,7 @@ do
 echo
 echo
 echo "==================================" |lolcat -t
-echo "    Choose your Banner fonts" |lolcat
+echo "   Escolha as fontes do seu Banner" |lolcat
 echo "==================================" |lolcat -t
 echo
 
@@ -59,19 +59,19 @@ echo -e "\e[31m[\e[32m14\e[31m]\e[33m Best-of-T-Remix\e[m "
 
 echo
 
-read -p $'\e[34m[\e[31m*\e[34m]\e[32m Enter your choice : ' userfont
+read -p $'\e[34m[\e[31m*\e[34m]\e[32m Digite sua escolha : ' userfont
  
 tput civis
 if [[ $userfont == 1 || $userfont == 01 ]]; then
 echo "figlet -f wetletter '                     $varbanner' |lolcat " > t-ban.txt
 echo
-echo "[*] Applying T-Remix Banner " |lolcat -t
+echo "[*] Aplicando o banner Termux " |lolcat -t
 sleep 2
 echo
-echo "[*] please wait " |lolcat -t
+echo "[*] Por favor, aguarde " |lolcat -t
 sleep 3
 echo
-echo "[*] Applied Successfuly" |lolcat -t
+echo "[*] Aplicado com sucesso" |lolcat -t
 echo
 sleep 2
 break
@@ -79,128 +79,128 @@ elif  [[ $userfont == 2 || $userfont == 02 ]]; then
 echo "echo" > t-ban.txt
 echo "figlet -f Bloody '      $varbanner' |lolcat -t " >> t-ban.txt
 echo
-echo "[*] Applying T-Remix Banner " |lolcat -t
+echo "[*] Aplicando o banner Termux " |lolcat -t
 sleep 2
 echo
-echo "[*] please wait " |lolcat -t
+echo "[*] Por favor, aguarde " |lolcat -t
 echo
 sleep 3
-echo "[*] Applied Successfuly" |lolcat -t
+echo "[*] Aplicado com sucesso" |lolcat -t
 sleep 2
 break
 elif  [[ $userfont == 3 || $userfont == 03 ]]; then
 echo "figlet -f small '                            $varbanner' |lolcat " > t-ban.txt
 echo
-echo "[*] Applying T-Remix Banner " |lolcat -t
+echo "[*] Aplicando o banner Termux " |lolcat -t
 sleep 2
 echo
-echo "[*] please wait " |lolcat -t
+echo "[*] Por favor, aguarde " |lolcat -t
 sleep 3
 echo
-echo "[*] Applied Successfuly" |lolcat -t
+echo "[*] Aplicado com sucesso" |lolcat -t
 sleep 2
 echo
 break
 elif  [[ $userfont == 4 || $userfont == 04 ]]; then
 echo "figlet -f big '                          $varbanner' |lolcat " > t-ban.txt
 echo
-echo "[*] Applying T-Remix Banner " |lolcat -t
+echo "[*] Aplicando o banner Termux " |lolcat -t
 sleep 2
 echo
-echo "[*] please wait " |lolcat -t
+echo "[*] Por favor, aguarde " |lolcat -t
 sleep 3
 echo
-echo "[*] Applied Successfuly" |lolcat -t
+echo "[*] Aplicado com sucesso" |lolcat -t
 sleep 2
 break
 elif  [[ $userfont == 5 || $userfont == 05 ]]; then
 echo "figlet -f starwars '   $varbanner' |lolcat " > t-ban.txt
 echo
-echo "[*] Applying T-Remix Banner " |lolcat -t
+echo "[*] Aplicando o banner Termux " |lolcat -t
 sleep 2
 echo
-echo "[*] please wait " |lolcat -t
+echo "[*] Por favor, aguarde " |lolcat -t
 sleep 3
 echo
-echo "[*] Applied Successfuly" |lolcat -t
+echo "[*] Aplicado com sucesso" |lolcat -t
 sleep 2
 echo
 break
 elif  [[ $userfont == 6 || $userfont == 06 ]]; then
 echo "figlet -f smslant '                          $varbanner' |lolcat " > t-ban.txt
 echo
-echo "[*] Applying T-Remix Banner " |lolcat -t
+echo "[*] Aplicando o banner Termux " |lolcat -t
 sleep 2
 echo
-echo "[*] please wait " |lolcat -t
+echo "[*] Por favor, aguarde " |lolcat -t
 echo
 sleep 3
-echo "[*] Applied Successfuly" |lolcat -t
+echo "[*] Aplicado com sucesso" |lolcat -t
 echo
 sleep 2
 break
 elif  [[ $userfont == 7 || $userfont == 07 ]]; then
 echo "figlet -f standard '                          $varbanner' |lolcat " > t-ban.txt
 echo
-echo "[*] Applying T-Remix Banner " |lolcat -t
+echo "[*] Aplicando o banner Termux " |lolcat -t
 sleep 2
 echo
-echo "[*] please wait " |lolcat -t
+echo "[*] Por favor, aguarde " |lolcat -t
 sleep 3
 echo
-echo "[*] Applied Successfuly" |lolcat -t
+echo "[*] Aplicado com sucesso" |lolcat -t
 sleep 2
 echo
 break
 elif  [[ $userfont == 8 || $userfont == 08 ]]; then
 echo "figlet -f slant '            $varbanner' |lolcat " > t-ban.txt
 echo
-echo "[*] Applying T-Remix Banner " |lolcat -t
+echo "[*] Aplicando o banner Termux " |lolcat -t
 sleep 2
 echo
-echo "[*] please wait " |lolcat -t
+echo "[*] Por favor, aguarde " |lolcat -t
 sleep 3
 echo
-echo "[*] Applied Successfuly" |lolcat -t
+echo "[*] Aplicado com sucesso" |lolcat -t
 sleep 2
 echo
 break
 elif  [[ $userfont == 9 || $userfont == 09 ]]; then
 echo "figlet -f Speed '         $varbanner' |lolcat " > t-ban.txt
 echo
-echo "[*] Applying T-Remix Banner " |lolcat -t
+echo "[*] Aplicando o banner Termux " |lolcat -t
 sleep 2
 echo
-echo "[*] please wait " |lolcat -t
+echo "[*] Por favor, aguarde " |lolcat -t
 sleep 3
 echo
-echo "[*] Applied Successfuly" |lolcat -t
+echo "[*] Aplicado com sucesso" |lolcat -t
 sleep 2
 echo
 break
 elif  [ $userfont == 10 ]; then
 echo "figlet -f red_phoenix '    $varbanner' |lolcat " > t-ban.txt
 echo
-echo "[*] Applying T-Remix Banner " |lolcat -t
+echo "[*] Aplicando o banner Termux " |lolcat -t
 sleep 2
 echo
-echo "[*] please wait " |lolcat -t
+echo "[*] Por favor, aguarde " |lolcat -t
 sleep 3
 echo
-echo "[*] Applied Successfuly" |lolcat -t
+echo "[*] Aplicado com sucesso" |lolcat -t
 sleep 2
 echo
 break
 elif  [ $userfont == 11 ]; then
 echo "figlet -f Soft '     $varbanner' |lolcat " > t-ban.txt
 echo
-echo "[*] Applying T-Remix Banner " |lolcat -t
+echo "[*] Aplicando o banner Termux " |lolcat -t
 sleep 2
 echo
-echo "[*] please wait " |lolcat -t
+echo "[*] Por favor, aguarde " |lolcat -t
 sleep 3
 echo
-echo "[*] Applied Successfuly" |lolcat -t
+echo "[*] Aplicado com sucesso" |lolcat -t
 sleep 2
 echo
 break
@@ -208,26 +208,26 @@ elif  [ $userfont == 12 ]; then
 echo "echo" > t-ban.txt
 echo "figlet -f Roman '  $varbanner' |lolcat " >> t-ban.txt
 echo
-echo "[*] Applying T-Remix Banner " |lolcat -t
+echo "[*] Aplicando o banner Termux " |lolcat -t
 sleep 2
 echo
-echo "[*] please wait " |lolcat -t
+echo "[*] Por favor, aguarde " |lolcat -t
 sleep 3
 echo
-echo "[*] Applied Successfuly" |lolcat -t
+echo "[*] Aplicado com sucesso" |lolcat -t
 sleep 2
 echo
 break
 elif  [ $userfont == 13 ]; then
 echo "figlet -f Poison '     $varbanner' |lolcat " > t-ban.txt
 echo
-echo "[*] Applying T-Remix Banner " |lolcat -t
+echo "[*] Aplicando o banner Termux " |lolcat -t
 sleep 2
 echo
-echo "[*] please wait " |lolcat -t
+echo "[*] Por favor, aguarde " |lolcat -t
 sleep 3
 echo
-echo "[*] Applied Successfuly" |lolcat -t
+echo "[*] Aplicado com sucesso" |lolcat -t
 sleep 2
 echo
 break
@@ -235,19 +235,19 @@ elif [ $userfont == 14 ]; then
 echo "echo" > t-ban.txt
 echo "figlet -f ASCII-Shadow '     $varbanner' |lolcat -t " >> t-ban.txt 
 echo
-echo "[*] Applying T-Remix Banner " |lolcat -t
+echo "[*] Aplicando o banner Termux " |lolcat -t
 sleep 2
 echo
-echo "[*] please wait " |lolcat -t
+echo "[*] Por favor, aguarde " |lolcat -t
 sleep 3
 echo
-echo "[*] Applied Successfuly" |lolcat -t
+echo "[*] Aplicado com sucesso" |lolcat -t
 sleep 2
 echo
 break
 else
 echo
-echo -e  "\e[33m[\e[31m!\e[33m] \e[31mInvalid option try again \e[m"
+echo -e  "\e[33m[\e[31m!\e[33m] \e[31mOpção inválida tente novamente \e[m"
 sleep 2
 clear
 fi
